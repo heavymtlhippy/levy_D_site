@@ -3,7 +3,6 @@
   <head>
     <meta charset = "utf-8">
     <title>Dori Levy, Learning Consultant</title>
-    <script src ="scripts.js"></script>
     <link href = "styles.CSS" rel = "stylesheet" type = "text/css">
   </head>
   <body>
@@ -57,9 +56,23 @@
 
         </div >
         </header>
+            <div id= "main">
     <p>
       Dori is a highly experienced New Jersey state-certified Learning Consultant with over 45 years of relevant experience.  She has worked in Special Education for over X years, as a teacher, student case manager at all grade levels, Director of Special Education, and School Administrator.  She has also worked as a Learning Consultant in the NJ school districts of Palmyra and Medford Lakes.  Dori's goal is to assist parents by helping them  collaborate with the school district to develop a personalized education plan for their children based on their unique needs.
     </p>
+      </div>
+     <script>
+            function openSideMenu(){
+                
+                document.getElementById('side-menu').style.width='250px';
+                document.getElementById('main').style.marginLeft='250px';
+            }
+            
+            function closeSideMenu(){
+                document.getElementById('side-menu').style.width = '0px';
+                document.getElementById('main').style.marginLeft = '0px';
+            }
+        </script>
   </body>
   <footer role = "contentinfo">
     <p>

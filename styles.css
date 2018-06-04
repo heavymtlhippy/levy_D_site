@@ -154,7 +154,7 @@ background-color: #DDD;
     transition: margin-left 0.5s;
     padding: 20px;
     overflow:hidden;
-    width: 100%;
+    width:100%;
 }
 @media(max-width: 568px){
     .nav-menu .dropdown, .nav-menu .regLinks{
