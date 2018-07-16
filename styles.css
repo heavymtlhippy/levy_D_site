@@ -1,11 +1,30 @@
 /*NORMALIZE*/
 @import 'normalize.css';
+@font-face{
+    font-family: 'MrChalk';
+    src: url('/Users/jacoblevy/Desktop/Web Projects/LevyDori_Raw_files/Fonts/MrChalk.woff') format('woff'),
+        url('/Users/jacoblevy/Desktop/Web Projects/LevyDori_Raw_files/Fonts/MrChalk.otf') format('open-type');
+    font-weight: normal;
+}
 /**********Not Normalized, NON-Resonsive CSS*********/
 body{
-    font-family: "Arial", sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    background-color: #F8f8ff;
    
 }
+.GreenBanner h3{
+    font-family: 'MrChalk';
+    background-color:  #3B581B;
+    padding: 15px;
+    color:whitesmoke;
+    /*Change to saved Font face*/
+}
+/*Dark Red: AF0018    Subtitle color  
+Dark Green: 3B581B    Normal Text
+Light Green: AFD56A  Bannner color
+Black: 000000      Banner Font
+
+*/
 
 header h2{
     padding: 0px;
@@ -25,18 +44,18 @@ header h3{
 }
 .nav-menu{
     overflow: hidden;
-    background-color: lightslategray;
+    background-color: #3B581B;
       height: 35px;
     line-height: 10px;
 }
   .nav-menu a{
  
   font-size: 18px;
-  color: white;
+  color: whitesmoke;
   padding: 10px;
     text-align:center;
   margin: 0;
-    font-family: "Arial", sans-serif;
+    font-family: 'MrChalk', sans-serif;
   text-decoration: none;
     display: inline;
     line-height: 10px;
@@ -58,11 +77,11 @@ header h3{
 }
 /*The padding on the bottom*/
 .dropdown .dropBTN {
-    background-color: lightslategray;
-    color: white;
+    background-color: #3B581B;
+    color: whitesmoke;
     text-align: center;
     padding: 10px 10px 15px 10px;
-    font-family: Arial, sans-serif;
+    font-family: 'MrChalk', sans-serif;
     margin: 0;
     font-size: 18px;
     text-decoration: none;
@@ -98,13 +117,15 @@ background-color: #DDD;
     transition: 0.5s;
 }
 
+
+
 .side-nav a{
     padding:10px 10px 10px 30px;
     text-decoration: none;
     font-size: 22px;
     color: #CCC;
     display: block;
-    transition 0.3s;
+    transition: 0.3s;
 }
 .side-nav a:hover{
     
