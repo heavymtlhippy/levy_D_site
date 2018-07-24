@@ -9,12 +9,12 @@
 /**********Not Normalized, NON-Resonsive CSS*********/
 body{
     font-family: 'Arial', sans-serif;
-    background-color: #F8f8ff;
-   
+    /*background-color: #F8f8ff;*/
+    background: url('Image_Files/GreenBlackboardTexture_Seamless_tile_340X600.png');
 }
 .GreenBanner h3{
     font-family: 'MrChalk';
-    background-color:  #3B581B;
+    font-size: 30px;
     padding: 15px;
     color:whitesmoke;
     /*Change to saved Font face*/
